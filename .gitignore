@@ -1,0 +1,16 @@
+# Jekyll
+_site/
+.jekyll-cache/
+.jekyll-metadata
+vendor/
+.bundle/
+
+# Gem
+Gemfile.lock
+
+# OS
+.DS_Store
+Thumbs.db
+
+# PyCharm
+.idea

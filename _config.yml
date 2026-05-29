@@ -1,0 +1,23 @@
+# Site settings
+title: Jan Malý
+description: Per aspera ad astra
+url: "https://janmalyy.github.io"
+baseurl: ""
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      lang: "en"
+  - scope:
+      path: "cs"
+    values:
+      lang: "cs"
+
+footer: ""

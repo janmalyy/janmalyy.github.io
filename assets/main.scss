@@ -1,0 +1,30 @@
+---
+---
+@import "minima";
+
+.profile-img {
+  float: right;
+  width: 250px;
+  height: auto;
+  border-radius: 12%;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 600px) {
+  .profile-img {
+    float: none;
+    display: block;
+    margin: 0 auto 20px auto;
+    width: 120px;
+  }
+}
+
+.flag-icon {
+  width: 20px;
+  height: auto;
+  vertical-align: middle;
+  margin-right: 5px;
+  border: 1px solid #ddd;
+}
