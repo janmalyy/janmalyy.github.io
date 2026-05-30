@@ -2,7 +2,7 @@
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
-    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    <a class="site-title" rel="author" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
     {%- if page_paths -%}
       <nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
@@ -16,11 +16,11 @@
         <div class="trigger">
           {%- assign page_lang = page.lang | default: site.lang | default: "en" -%}
           {%- if page_lang == "cs" -%}
-            <a class="page-link" href="{{ "/" | relative_url }}">
+            <a class="page-link" href="{{ '/' | relative_url }}" onclick="localStorage.setItem('language', 'en')">
               <img src="{{ 'assets/images/eng_flag.png' | relative_url }}" alt="English" class="flag-icon"> English
             </a>
           {%- else -%}
-            <a class="page-link" href="{{ "/cs/" | relative_url }}">
+            <a class="page-link" href="{{ '/cs/' | relative_url }}" onclick="localStorage.setItem('language', 'cs')">
               <img src="{{ 'assets/images/cs_flag.png' | relative_url }}" alt="Česky" class="flag-icon"> Česky
             </a>
           {%- endif -%}

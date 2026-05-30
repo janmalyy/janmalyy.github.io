@@ -1,0 +1,56 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ '/' | relative_url }}"></data>
+
+  <div class="wrapper">
+    {%- assign page_lang = page.lang | default: site.lang | default: "en" -%}
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="social-media-list">
+          <li class="p-name">
+            {%- if site.author -%}
+              {{ site.author | escape }}
+            {%- else -%}
+              {{ site.title | escape }}
+            {%- endif -%}
+          </li>
+          <li>
+            {%- if page_lang == "cs" -%}
+              Tel.: <a href="tel:+420608832327">+420 608 832 327</a>
+            {%- else -%}
+              Phone: <a href="tel:+420608832327">+420 608 832 327</a>
+            {%- endif -%}
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          <li>
+            <a href="https://www.linkedin.com/in/jan-malyy/">
+              <svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"></use></svg>
+              <span class="username">LinkedIn</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/janmalyy">
+              <svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg>
+              <span class="username">GitHub</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+          <ul class="social-media-list">
+              <li>&nbsp;</li>
+              <li>
+                <i>
+                    {{ site.description | escape }}
+                </i>
+              </li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</footer>

@@ -28,3 +28,36 @@
   margin-right: 5px;
   border: 1px solid #ddd;
 }
+
+.site-footer {
+  padding: 40px 0;
+  border-top: 1px solid #e8e8e8;
+  background-color: #fdfdfd;
+
+  .footer-heading {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+  }
+
+  .social-media-list {
+    list-style: none;
+    margin-left: 0;
+  }
+
+  a {
+    color: #828282;
+    text-decoration: none;
+    &:hover {
+      color: #333;
+      text-decoration: underline;
+    }
+  }
+
+  .svg-icon {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    fill: #828282;
+    margin-right: 5px;
+  }
+}
