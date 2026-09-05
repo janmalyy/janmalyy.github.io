@@ -7,6 +7,9 @@ lang: cs
 <img src="{{ 'assets/images/me.jpg' | relative_url }}" alt="můj profilový obrázek; s úsměvem; v černém tričku" class="profile-img">
 Krásný den všem!
 
+**EDIT**: Už jsem našel, takže momentálně nehledám. Momentálně pracuji jako Python Developer v Photon Systems Instruments. Tvořím software pro práci s ve firmě vyvíjenými kamerami.
+Můžeme se spojit ovšem i tak:)
+
 Jsem čerstvý absolvent počítačové lingvistiky a hledám uplatnění v&nbsp;oblasti NLP nebo v&nbsp;příbuzných oborech.
 
 Pojďme si to říct na rovinu: Význam této stránky je v tom přiblížit světu, kdo jsem, co umím a proč byste mě měli chtít součástí pracovního týmu:)

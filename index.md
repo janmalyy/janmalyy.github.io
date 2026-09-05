@@ -6,6 +6,9 @@ lang: en
 <img src="{{ 'assets/images/me.jpg' | relative_url }}" alt="me.jpg" class="profile-img">
 Hello there!
 
+**EDIT**: I have already found a job, so I am not currently looking. I am currently working as a Python Developer at Photon Systems Instruments, creating software to work with cameras developed in-house.
+We can still connect anyway, though :)
+
 I'm a&nbsp;fresh graduate from Computational Linguistics ready for a&nbsp;career in NLP or related fields.
 
 Let's be completely honest: The purpose of this page is to show the world who I&nbsp;am, what I&nbsp;can do, and why you would want me as part of your working team:)
